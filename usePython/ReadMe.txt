@@ -8,7 +8,7 @@
 	
 	2.tushare安装
 	
-		方式1：pip install tushare
+		方式1：pip install tushare ( CMD命令行中执行 )
 		方式2：访问 https://pypi.python.org/pypi/tushare/ 下载安装
 	
 	3.java 调用 python
