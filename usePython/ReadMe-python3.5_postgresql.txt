@@ -1,5 +1,5 @@
 1. install Psycopg2 for Python 3.5
-	´Ó http://www.lfd.uci.edu/~gohlke/pythonlibs/ ÏÂÔØ·Ç¹Ù·½µÄwhl£¨Psycopg£©°ü 
+	ä» http://www.lfd.uci.edu/~gohlke/pythonlibs/ ä¸‹è½½éå®˜æ–¹çš„whlï¼ˆPsycopgï¼‰åŒ… 
     Unofficial Windows Binaries for Python Extension Packages
 2. install the downloaded .whl files.
      	pip install SomePackage-1.0-py2.py3-none-any.whl
