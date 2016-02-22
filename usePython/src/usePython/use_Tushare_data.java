@@ -17,8 +17,10 @@ public class use_Tushare_data {
 		      //	exec("python F:\\Java2016\\jee-mars-space\\usePython\\python_src\\get_hist_data.py");	//600303
 		      //Process pr = Runtime.getRuntime().
 		      //	exec("python .\\python_src\\get_hist_data.py");	//600303
+		      //Process pr = Runtime.getRuntime().
+			  //  		exec("python .\\python_src\\get_argvs.py hello world");   //接收参数并打印
 		      Process pr = Runtime.getRuntime().
-			    		exec("python .\\python_src\\get_argvs.py hello world");   //接收参数并打印
+			    		exec("python .\\python_src\\goget_all_today_data.py");   //
 		      BufferedReader in = new BufferedReader(new InputStreamReader(pr.getInputStream()));  
 		      String line;  
 		      while ((line = in.readLine()) != null) {
