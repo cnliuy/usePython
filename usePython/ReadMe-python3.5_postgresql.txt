@@ -12,3 +12,14 @@
     https://pip.pypa.io/en/latest/user_guide/#installing-from-wheels
     pip install SomePackage-1.0-py2.py3-none-any.whl
     
+    
+	通过 pip列表安装包
+    $ pip list
+	docutils (0.9.1)
+	Jinja2 (2.6)
+	Pygments (1.5)
+	Sphinx (1.1.2)
+
+	通过pip卸载安装包
+	$ pip uninstall SomePackage
+	
