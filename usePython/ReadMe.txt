@@ -1,21 +1,21 @@
-ÅäÖÃ²½Öè£º
+é…ç½®æ­¥éª¤ï¼š
 
 
-	1.ÅäÖÃpython»·¾³
+	1.é…ç½®pythonç¯å¢ƒ
 	
-		°²×° Anaconda ( http://www.continuum.io/downloads ),
-		Ò»´Î°²×°°üÀ¨ÁËPython»·¾³ºÍÈ«²¿ÒÀÀµ°ü.
+		å®‰è£… Anaconda ( http://www.continuum.io/downloads ),
+		ä¸€æ¬¡å®‰è£…åŒ…æ‹¬äº†Pythonç¯å¢ƒå’Œå…¨éƒ¨ä¾èµ–åŒ….
 	
-	2.tushare°²×°
+	2.tushareå®‰è£…
 	
-		·½Ê½1£ºpip install tushare ( CMDÃüÁîĞĞÖĞÖ´ĞĞ )
-		·½Ê½2£º·ÃÎÊ https://pypi.python.org/pypi/tushare/ ÏÂÔØ°²×°
+		æ–¹å¼1ï¼špip install tushare ( CMDå‘½ä»¤è¡Œä¸­æ‰§è¡Œ )
+		æ–¹å¼2ï¼šè®¿é—® https://pypi.python.org/pypi/tushare/ ä¸‹è½½å®‰è£…
 	
-	3.java µ÷ÓÃ python
+	3.java è°ƒç”¨ python
 	
 		python F:\Java2016\jee-mars-space\usePython\python_src\show_sys_path.py
 		
-		²Î¿¼£º http://tonl.iteye.com/blog/1918245 ( Java µ÷ÓÃ Python )
+		å‚è€ƒï¼š http://tonl.iteye.com/blog/1918245 ( Java è°ƒç”¨ Python )
 		
 		
 		
