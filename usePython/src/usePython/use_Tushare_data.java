@@ -9,6 +9,7 @@ public class use_Tushare_data {
 		
 		  try{  
 		      System.out.println("----start------");  
+		      Process pr;
 		      //Process pr = Runtime.getRuntime().
 		      //	exec("python F:\\python2016\\Python_src\\testsrc\\get_hist_data.py");	
 		      //Process pr = Runtime.getRuntime().
@@ -18,9 +19,12 @@ public class use_Tushare_data {
 		      //Process pr = Runtime.getRuntime().
 		      //	exec("python .\\python_src\\get_hist_data.py");	//600303
 		      //Process pr = Runtime.getRuntime().
-			  //  		exec("python .\\python_src\\get_argvs.py hello world");   //½ÓÊÕ²ÎÊý²¢´òÓ¡
-		      Process pr = Runtime.getRuntime().
-			    		exec("python .\\python_src\\goget_all_today_data.py");   //
+			  //  		exec("python .\\python_src\\get_argvs.py hello world");   //ï¿½ï¿½ï¿½Õ²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¡
+		      //Process pr = Runtime.getRuntime().
+			  //  		exec("python .\\python_src\\goget_all_today_data.py");   //
+		      
+		      pr = Runtime.getRuntime().
+				     	exec("python .\\python_src\\goget_history_detail_data__to_DB.py  300296  2016-06-24");	//600303
 		      BufferedReader in = new BufferedReader(new InputStreamReader(pr.getInputStream()));  
 		      String line;  
 		      while ((line = in.readLine()) != null) {
