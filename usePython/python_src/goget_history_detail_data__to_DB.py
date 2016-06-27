@@ -12,6 +12,8 @@ gupiaodata = sys.argv[2];
 #print ("gupiaocode:",gupiaocode)
 #print ("gupiaodata:",gupiaodata)
 ## df = ts.get_tick_data('600848',date='2014-01-09')
+
+# price：成交价格       change：价格变动      volume：成交手       amount：成交金额(元)          type：买卖类型【买盘、卖盘、中性盘】
 df = ts.get_tick_data(gupiaocode,date=gupiaodata)
 
 
