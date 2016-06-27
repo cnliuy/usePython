@@ -17,6 +17,6 @@
 		
 		参考： http://tonl.iteye.com/blog/1918245 ( Java 调用 Python )
 		
-		
+	4.python 将数据传入数据库中
 		
 --EOF--
