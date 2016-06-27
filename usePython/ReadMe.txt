@@ -33,7 +33,7 @@
 				print data_original
 		结果：
 				In [4]: %run "H:\TestPYTHON\public.py"
-					A   B  C
+				    A   B  C
 				0  a1  b1  1
 				1  a2  b2  2
 				2  a3  b3  3
