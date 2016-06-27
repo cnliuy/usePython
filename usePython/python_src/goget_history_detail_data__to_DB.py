@@ -26,7 +26,7 @@ engine = sa.create_engine('postgresql://postgres:ttxs123321@127.0.0.1:14875/pydb
 tname123 = 'tick_data_'+gupiaocode;
 print ("tablename_123:",tname123)
 #df.to_sql(tname123,engine)
-df['gupiaodata']=gupiaodata
+df['gupiaodata']=gupiaodata  #增加一列的数据
 df.to_sql(tname123,engine)
 ## if table exeist append to DB
 #df.to_sql('tick_data',engine,if_exists='append')
