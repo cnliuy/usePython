@@ -7,6 +7,7 @@ from astropy.io.ascii.tests.test_fixedwidth import table
 
 ## cmd:	cd  F:\Java2016\gitspace\gupiao2\usePython\python_src\
 ## cmd: python  goget_history_detail_data__to_DB.py  600848  2015-08-26
+#                      300296   2016-06-27
 gupiaocode = sys.argv[1];
 gupiaodata = sys.argv[2];
 #print ("gupiaocode:",gupiaocode)
@@ -29,7 +30,7 @@ tname123 = 'tick_data_'+gupiaocode;
 print ("tablename_123:",tname123)
 #df.to_sql(tname123,engine)
 df['gupiaodata']=gupiaodata  #增加一列的数据
-df.to_sql(tname123,engine)
+#df.to_sql(tname123,engine)
 ## if table exeist append to DB
 #df.to_sql('tick_data',engine,if_exists='append')
 #df.to_sql(tname123,engine,if_exists='append')
