@@ -44,4 +44,12 @@
 				
 		参考二：http://www.jianshu.com/p/682c24aef525
 		
+	5.加入了 Spring JDBC
+		http://www.journaldev.com/2593/spring-jdbc-example
+		Spring JDBC Example  （pom.xml 参考） (5*)
+		
+		http://blog.csdn.net/chszs/article/details/43971981
+		Spring JDBC详解
+		---- 引入 Spring JDBC
+		
 --EOF--
