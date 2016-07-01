@@ -27,7 +27,7 @@ engine = sa.create_engine('postgresql://postgres:ttxs123321@127.0.0.1:14875/pydb
 ## save to DB
 #df.to_sql('tick_data',engine)
 tname123 = 'tick_data_'+gupiaocode;
-print ("tablename_123:",tname123)
+##print ("tablename_123:",tname123)  #打印的内容   tablename_123: tick_data_300033
 #df.to_sql(tname123,engine)
 df['gupiaodata']=gupiaodata  #增加一列的数据
 #df.to_sql(tname123,engine)

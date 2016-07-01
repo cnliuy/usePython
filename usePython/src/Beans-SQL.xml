@@ -8,6 +8,9 @@
 		<property name="dataSource" ref="dataSource" />
 	</bean>
 	
+	<bean id="StockDayDao" class="usePython.springjdbc.sql.StockDay.StockDayDaoImpl">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
 	
 	
 	<!--  mysql -->

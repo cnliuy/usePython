@@ -10,7 +10,7 @@ import javax.sql.DataSource;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 
-public class StockdataDaoImpl  implements StockdataDAO{
+public class StockdataDaoImpl  implements StockdataDao{
 	
 	private DataSource dataSource;
 	
@@ -58,6 +58,7 @@ public class StockdataDaoImpl  implements StockdataDAO{
 	public Long gogetOnedaySellSum(String stocknum, String day, int unitprice) {
 		String query = "SELECT sum(amount) FROM tick_data_"+stocknum+" where amount > "+unitprice+"  and type='卖盘' and gupiaodata='"+day+"'";
 		JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
+		
 		long sellsum =-1L ;
 		sellsum = jdbcTemplate.queryForLong(query);
 		return sellsum;		

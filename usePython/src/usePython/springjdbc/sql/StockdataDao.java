@@ -1,6 +1,6 @@
 package usePython.springjdbc.sql;
 
-public interface  StockdataDAO {
+public interface  StockdataDao {
 	//find sql
 	public void findsql(String  stocknum);
 	
